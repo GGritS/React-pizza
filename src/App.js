@@ -17,7 +17,7 @@ import { Cart, Header, MainBlock, NavBar } from "./components";
 import "./App.css";
 //-------------------------
 
-
+console.log('jopa');
 const App = () => {
   return (
     <div className="App">
