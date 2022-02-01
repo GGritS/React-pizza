@@ -1,0 +1,100 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 1340px;
+    height: 120px;
+}
+
+.flexWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1240px;
+    height: 40px;
+}
+
+.flexFiltersBlock{
+    display: flex;
+}
+
+.notActive{
+    background-color: #e9e7e7    ;
+    color: #1d1d1d;
+    border-radius: 30px;
+    
+
+    padding: 11px 30px;
+
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+    width: max-content;
+    height: 40px;
+    cursor: pointer;
+}
+
+.notActive:hover{
+    background-color: #dbdbdb;
+    transition-duration: 0.3s;
+}
+
+.active{
+    background-color: #282828;
+    color: #fff;
+    
+    border-radius: 30px;
+
+    padding: 11px 30px;
+
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+    width: max-content;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+/*******SORT BLOCK*******/
+
+.flexSorthBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    cursor: pointer;
+
+}
+
+.sortItem{
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: 'Proxima Nova', Roboto, system-ui, Tahoma, sans-serif;
+}
+
+.selectSort{
+    color: #fe5f1e;;
+    width: 118px;
+}
+.text11{
+    display: block;
+    border-bottom: 1px dashed #fe5f1e;
+    width: fit-content;
+}
+
+.sortBlockContainer{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+.rotated{
+    transform: rotate(90deg);
+}
+/***********************/

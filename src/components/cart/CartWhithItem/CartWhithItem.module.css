@@ -1,0 +1,18 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    font-family: 'Proxima Nova', Roboto, system-ui, Tahoma, sans-serif;
+
+}
+.flexWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 30px;
+
+    width: 820px;
+    min-height: 400px;
+    height: content;
+}
+

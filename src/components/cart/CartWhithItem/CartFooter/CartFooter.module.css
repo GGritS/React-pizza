@@ -1,0 +1,89 @@
+/*******footerTetx********/
+.cartFooter{
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+
+    margin: 50px 0px;
+
+    width: 100%;
+    font-family: 'Proxima Nova', Roboto, system-ui, Tahoma, sans-serif;
+}
+
+.footerTetx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 35px;
+
+    color: #232323;
+}
+.totalPizzasText{
+    display: flex;
+    font-size: 22px;
+}
+.totalPizzasNum{
+    margin-left: 4px;
+    font-weight: 700;
+}
+
+.OrderPriceText{
+    display: flex;
+    font-size: 22px;
+}
+.OrderPriceSum{
+    margin-left: 4px;
+    color: #fe5f1e;
+    font-weight: 700;
+}
+
+
+.footerButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comeBackButt{
+    border: 1px solid #c3c3c3;
+    color: #c3c3c3;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 500;
+    font-size: 16px;
+
+    border-radius: 26px;
+    width: 210px;
+    height: 52px;
+}
+.comeBackButt:hover{
+    border: 1px solid #090908;
+    background-color: #090908;
+    color: white;
+
+    transition-duration: 0.5s;
+}
+.payNowButt{
+    background-color: #fe5f1e;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 500;
+    font-size: 16px;
+
+    border-radius: 26px;
+    width: 210px;
+    height: 52px;
+}
+.payNowButt:hover{
+    background-color: #f05821    ;
+    transition-duration: 0.5s;
+}
+/************************/

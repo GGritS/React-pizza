@@ -1,0 +1,41 @@
+.wrapper{
+    box-shadow: 0 0 10px gray;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+    position: absolute;
+    z-index: 99999;
+
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 10px;
+    padding: 10px 0;
+    
+    overflow: hidden;
+
+    width: 160px;
+    height: 140px;
+}
+
+
+.item{
+    display: flex;
+    /* justify-content: center; */
+    
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Proxima Nova', Roboto, system-ui, Tahoma, sans-serif;
+    width: content;
+}
+.item:hover{
+    background-color: #fef7f5;
+}
+
+.itemActive{
+    background-color: #fef7f5;
+    font-weight: bold;
+    color: #fe5f1e;
+    transition-duration: 0.2s;
+}

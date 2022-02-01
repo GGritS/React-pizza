@@ -1,0 +1,32 @@
+/******cartSecondHeder*******/
+
+.cartSecondHeader{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    width: 820px;
+    height: 90px;
+}
+
+.cartText{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.clearCartText{
+    color: #b6b6b6;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.clearCartText:hover{
+    color: #232323;
+    transition-duration: 0.3s;
+}
+
+/***************************/
